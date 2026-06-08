@@ -1,30 +1,64 @@
-# Agentic AI Research Portfolio & Academic Hub
-**Shardul Kattewar** | [cite_start]B.Tech in Computer Science & Business Systems (CSBS) [cite: 1, 10]
+# Shardul Kattewar — Research Portfolio
 
-## 🚀 Overview
-A modular React-based professional dashboard engineered through an **Agentic AI workflow** (Claude 3.5 + Cursor). This platform serves as a centralized hub for my research dossiers, academic metrics, and technical projects.
+**Backend Engineer · B.Tech CSBS** | D.Y. Patil RAIT, Nerul
 
-## 📊 Performance Evolution
-One of the core features of this portfolio is the transparent visualization of my academic trajectory:
-* [cite_start]**Starting SGPA:** ~4.39 (Approximate baseline from early semesters) [cite: 12]
-* [cite_start]**Latest SGPA:** 7.32 (Semester 5) [cite: 6, 12]
-* [cite_start]**Growth:** Significant upward trajectory demonstrating disciplined learning and technical mastery[cite: 6, 8].
+Live site: **[research-portfolio-omega.vercel.app](https://research-portfolio-omega.vercel.app)**
 
-## 🛠️ Tech Stack
-* **Framework:** React with Vite
-* **Styling:** Tailwind CSS (Editorial Academic Design System)
-* [cite_start]**Development:** Agentic AI Workflow (Cursor + Claude 3.5 Sonnet) [cite: 8, 26]
-* [cite_start]**Specialization:** Data Science & GenAI (iHUB IIT Roorkee) [cite: 7, 16]
+## Overview
 
-## 📂 Key Projects
-### [cite_start]1. AI Farmer: Intelligent Crop Recommendation [cite: 21]
-* [cite_start]Developed a predictive model using **XGBoost and Random Forest** to suggest optimal crops based on soil NPK levels and environmental data[cite: 21, 22].
-* [cite_start]Engineered modular OOP structures to ensure codebase maintainability and scalability[cite: 24].
+A modular React portfolio built with an Agentic AI workflow (Claude + Cursor). Central hub for backend systems projects, applied ML work, academic metrics, and AI transparency documentation.
 
-### [cite_start]2. Agentic Research Portfolio (This Project) [cite: 26]
-* [cite_start]Implemented a custom **"AI Transparency"** framework to document human-AI collaborative development[cite: 28].
-* [cite_start]Integrated live-linked dossiers for academic marksheets and certifications[cite: 29].
+## Contact
 
-## 📄 Documentation
-Access my full research synopsis and verified marksheets via the live portal:
-**[Link to your Vercel URL]**
+- **Email:** shardulkattewar@gmail.com
+- **Phone:** +91 7718841231
+- **Location:** Thane, India
+- **GitHub:** [github.com/Fahrrr](https://github.com/Fahrrr)
+
+## Education
+
+**B.Tech in Computer Science & Business Systems (CSBS)** — D.Y. Patil, RAIT  
+2023 – 2027 | Current CGPA: **7.32/10** (83% growth from 4.0 in Semester 1)
+
+Relevant coursework: DSA, RDBMS, Applied Statistics, Information Security
+
+## Key Projects
+
+### Binance Futures Algorithmic Trading Engine
+- Modular CLI trading bot with SHA256 HMAC-signed REST API calls on Binance Testnet
+- Fail-safe input validation and interactive terminal UI with live telemetry
+
+### FinReact – Autonomous Local AI Financial Agent
+- Local-first hybrid ReAct agent using Ollama/Llama 3 with Text-to-SQL over SQLite
+- Intent routing, sliding-window memory, and 100% on-device data privacy
+
+### AI-Driven Precision Agriculture & Crop Recommendation
+- Random Forest and XGBoost models for crop optimization from NPK and climate data
+- Modular OOP architecture with Cursor-assisted prototyping
+
+### Agentic AI Portfolio & Research Hub (this repo)
+- Custom AI Transparency framework documenting human–AI collaborative development
+- Live-linked dossiers for academic marksheets, certifications, and project reports
+
+## Certifications
+
+- **Advanced Data Science & Machine Learning** — iHUB IIT Roorkee
+- **Microsoft SQL Technical Certification** — Microsoft
+
+## Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **Languages:** Python, C++, C, SQL, JavaScript
+- **ML & Data:** NumPy, Pandas, Scikit-learn, Matplotlib
+- **Backend & AI:** REST APIs, HMAC-SHA256, Ollama, Llama 3, ReAct Architecture
+
+## Local Development
+
+```bash
+npm install
+npm run dev
+```
+
+## CV
+
+Download: [CV_Shardul_Kattewar.pdf](/public/CV_Shardul_Kattewar.pdf)
