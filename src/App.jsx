@@ -28,6 +28,47 @@ function Tag({ children }) {
   );
 }
 
+function ProjectCard({ project }) {
+  return (
+    <a
+      href={project.githubUrl}
+      target="_blank"
+      rel="noreferrer"
+      className="project-card card p-6 block group"
+    >
+      <div className="flex items-start justify-between gap-4 mb-3">
+        <div className="min-w-0">
+          <h3 className="font-semibold text-slate-900 group-hover:text-slate-700 transition-colors">
+            {project.title}
+          </h3>
+          <p className="text-xs text-slate-400 mt-1">{project.venue}</p>
+        </div>
+        <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-slate-100 text-slate-600 border border-slate-200 shrink-0">
+          {project.language}
+        </span>
+      </div>
+
+      <p className="text-slate-600 text-sm leading-relaxed mb-4">{project.description}</p>
+
+      <div className="flex flex-wrap gap-2 mb-5">
+        {project.tags.map((t) => (
+          <Tag key={t}>{t}</Tag>
+        ))}
+      </div>
+
+      <div className="flex items-center justify-between pt-4 border-t border-slate-100">
+        <span className="text-sm text-slate-500 font-mono">{project.repo}</span>
+        <span className="project-card-link text-sm font-medium text-slate-700">
+          View on GitHub
+          <span className="inline-block ml-1 transition-transform group-hover:translate-x-0.5">
+            →
+          </span>
+        </span>
+      </div>
+    </a>
+  );
+}
+
 export default function App() {
   const { meta, about, education, projects, skills, certifications } = DATA;
 
@@ -59,7 +100,7 @@ export default function App() {
           <p className="text-slate-600 leading-relaxed mb-8 max-w-2xl">{about}</p>
           <div className="flex flex-wrap gap-3">
             <DownloadCV />
-            <a href={`mailto:${meta.email}`} className="btn-secondary">
+            <a href="#contact" className="btn-secondary">
               Get in touch
             </a>
           </div>
@@ -84,20 +125,21 @@ export default function App() {
         {/* Projects */}
         <section id="projects" className="mb-16">
           <SectionTitle>Projects</SectionTitle>
+          <p className="text-sm text-slate-500 mb-5 -mt-2">
+            Click any project to open its source code on{" "}
+            <a
+              href={`https://${meta.github}`}
+              target="_blank"
+              rel="noreferrer"
+              className="text-slate-700 underline-offset-2 hover:underline"
+            >
+              GitHub
+            </a>
+            .
+          </p>
           <div className="space-y-4">
             {projects.map((p) => (
-              <div key={p.title} className="card p-6">
-                <div className="flex flex-wrap items-center gap-2 mb-2">
-                  <h3 className="font-semibold text-slate-900">{p.title}</h3>
-                  <span className="text-xs text-slate-400">· {p.venue}</span>
-                </div>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4">{p.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {p.tags.map((t) => (
-                    <Tag key={t}>{t}</Tag>
-                  ))}
-                </div>
-              </div>
+              <ProjectCard key={p.title} project={p} />
             ))}
           </div>
         </section>

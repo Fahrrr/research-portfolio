@@ -29,6 +29,9 @@ export const DATA = {
     {
       title: "Binance Futures Algorithmic Trading Engine",
       venue: "FinTech / Backend",
+      repo: "Fahrrr/futures-trading-bot",
+      githubUrl: "https://github.com/Fahrrr/futures-trading-bot",
+      language: "Python",
       description:
         "Engineered a modular CLI trading bot in Python to securely execute live MARKET/LIMIT orders on the Binance Testnet using signed SHA256 HMAC encryption. Designed a fail-safe input boundary validation framework and an interactive multi-step terminal UI wizard with live telemetry tracking.",
       tags: ["Python", "REST API", "HMAC-SHA256", "Binance"],
@@ -36,6 +39,9 @@ export const DATA = {
     {
       title: "FinReact – Autonomous Local AI Financial Agent",
       venue: "Agentic AI",
+      repo: "Fahrrr/FinReact",
+      githubUrl: "https://github.com/Fahrrr/FinReact",
+      language: "Python",
       description:
         "Engineered a local-first autonomous financial agent using Python and an offline Llama 3 model. Implemented intent routing between SQLite and web scraping, a Text-to-SQL translation pipeline, and sliding-window memory to cap prompt payloads and maintain low processing latency.",
       tags: ["Python", "Ollama", "Llama 3", "SQLite", "ReAct"],
@@ -43,6 +49,9 @@ export const DATA = {
     {
       title: "AI-Driven Precision Agriculture & Crop Recommendation",
       venue: "Applied ML",
+      repo: "Fahrrr/agro-intelligence-advisor",
+      githubUrl: "https://github.com/Fahrrr/agro-intelligence-advisor",
+      language: "Python",
       description:
         "Developed a predictive model to optimize agricultural output based on soil chemistry and environmental factors using Random Forest and XGBoost. Engineered a data pipeline for NPK and climate data with modular OOP structures for scalability.",
       tags: ["Python", "Scikit-learn", "XGBoost", "Random Forest"],
@@ -50,6 +59,9 @@ export const DATA = {
     {
       title: "Agentic AI Portfolio & Research Hub",
       venue: "Personal Project",
+      repo: "Fahrrr/research-portfolio",
+      githubUrl: "https://github.com/Fahrrr/research-portfolio",
+      language: "JavaScript",
       description:
         "Engineered a professional academic portfolio using an Agentic AI workflow with modular component architecture, a custom AI Transparency disclosure, and integrated research dossiers.",
       tags: ["React", "Tailwind CSS", "Claude", "Cursor"],
