@@ -72,7 +72,7 @@ export const DATA = {
     {
       title: "Advanced Data Science & Machine Learning",
       issuer: "iHUB IIT Roorkee",
-      status: "Completed",
+      status: "Ongoing",
       note: "Predictive modeling, data pipelines, and architectural frameworks.",
     },
     {

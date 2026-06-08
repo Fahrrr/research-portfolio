@@ -155,7 +155,13 @@ export default function App() {
                   <p className="text-sm text-slate-500">{c.issuer}</p>
                   {c.note && <p className="text-xs text-slate-400 mt-1">{c.note}</p>}
                 </div>
-                <span className="text-xs font-medium px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 self-start">
+                <span
+                  className={`text-xs font-medium px-3 py-1 rounded-full self-start ${
+                    c.status === "Ongoing"
+                      ? "bg-amber-50 text-amber-700 border border-amber-200"
+                      : "bg-emerald-50 text-emerald-700 border border-emerald-200"
+                  }`}
+                >
                   {c.status}
                 </span>
               </div>

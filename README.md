@@ -42,8 +42,8 @@ Relevant coursework: DSA, RDBMS, Applied Statistics, Information Security
 
 ## Certifications
 
-- **Advanced Data Science & Machine Learning** — iHUB IIT Roorkee
-- **Microsoft SQL Technical Certification** — Microsoft
+- **Advanced Data Science & Machine Learning** — iHUB IIT Roorkee *(Ongoing)*
+- **Microsoft SQL Technical Certification** — Microsoft *(Completed)*
 
 ## Tech Stack
 
